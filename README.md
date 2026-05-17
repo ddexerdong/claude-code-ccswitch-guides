@@ -1,31 +1,24 @@
 # Claude Code + CC Switch Guides
 
-Cross-platform setup and maintenance guides for Claude Code, CC Switch, and third-party model providers such as DeepSeek, Qwen, GLM, Kimi, SiliconFlow, and OpenRouter.
+Cross-platform guides for setting up and maintaining Claude Code, CC Switch, and third-party model providers such as DeepSeek, Qwen, GLM, Kimi, SiliconFlow, and OpenRouter.
 
-本仓库整理了 Windows 与 macOS 上配置 Claude Code、使用 CC Switch 切换模型、维护 API Key / Base URL / Model Name、以及排查常见问题的中英文文档，适合个人学习、客户交付和团队内部环境标准化。
+本仓库提供 Windows 与 macOS 两套文档入口。先选择你的系统，进入后再选择中文 / English，以及安装配置 / 维护指南。
 
-## Documentation
+## Choose Your Platform
 
-| System | Language | Type | Document |
-| --- | --- | --- | --- |
-| Windows | 中文 | 安装配置 | [Windows 中文安装配置指南](docs/windows/windows_claude_code_ccswitch_full_guide_zh.md) |
-| Windows | 中文 | 维护指南 | [Windows 中文维护指南](docs/windows/windows_claude_code_ccswitch_maintenance_zh.md) |
-| Windows | English | Setup Guide | [Windows English Setup Guide](docs/windows/windows_claude_code_ccswitch_full_guide_en.md) |
-| Windows | English | Maintenance Guide | [Windows English Maintenance Guide](docs/windows/windows_claude_code_ccswitch_maintenance_en.md) |
-| macOS | 中文 | 安装配置 | [macOS 中文安装配置指南](docs/mac/mac_claude_code_ccswitch_full_guide_zh.md) |
-| macOS | 中文 | 维护指南 | [macOS 中文维护指南](docs/mac/mac_claude_code_ccswitch_maintenance_zh.md) |
-| macOS | English | Setup Guide | [macOS English Setup Guide](docs/mac/mac_claude_code_ccswitch_full_guide_en.md) |
-| macOS | English | Maintenance Guide | [macOS English Maintenance Guide](docs/mac/mac_claude_code_ccswitch_maintenance_en.md) |
+| Platform | Start Here | Includes |
+| --- | --- | --- |
+| Windows | [Windows Guides](docs/windows/) | 中文安装配置、中文维护指南、English setup guide、English maintenance guide |
+| macOS | [macOS Guides](docs/mac/) | 中文安装配置、中文维护指南、English setup guide、English maintenance guide |
 
-## What Is Covered
+## What These Guides Cover
 
-- Installing and verifying Claude Code on Windows and macOS
-- Installing Git, Homebrew, Node.js, Python, and other recommended tooling
+- Installing and verifying Claude Code
+- Installing Git, Homebrew, Node.js, Python, and recommended development tools
 - Installing CC Switch from trusted sources
 - Adding providers for DeepSeek, Qwen, GLM, Kimi, SiliconFlow, OpenRouter, New API, and One API
 - Maintaining API keys, Base URLs, model names, and environment variables
-- Running health checks before daily use
-- Troubleshooting common setup, login, provider, and model-switching issues
+- Running health checks and troubleshooting common failures
 
 ## Who This Is For
 
@@ -33,14 +26,14 @@ Cross-platform setup and maintenance guides for Claude Code, CC Switch, and thir
 - Claude Code users
 - Developers who want to switch models with CC Switch
 - Users integrating DeepSeek / Qwen / GLM / Kimi or other compatible providers
-- Consultants, support engineers, and teams preparing customer-facing setup docs
+- Support engineers and teams preparing customer-facing setup docs
 
 ## Quick Start
 
-1. Choose your operating system and language from the documentation table.
-2. Follow the setup guide first.
-3. Use the maintenance guide for daily checks and troubleshooting.
-4. If model switching fails, verify API Key, Base URL, Model Name, and whether Claude Code was restarted.
+1. Open the platform page: [Windows](docs/windows/) or [macOS](docs/mac/).
+2. Choose your language.
+3. Follow the setup guide first.
+4. Use the maintenance guide for daily checks and troubleshooting.
 5. Before asking for support, redact all API keys, tokens, and sensitive headers.
 
 ## Security Notes
@@ -75,7 +68,9 @@ Cross-platform setup and maintenance guides for Claude Code, CC Switch, and thir
 ├── CHANGELOG.md
 ├── docs/
 │   ├── windows/
+│   │   └── README.md
 │   ├── mac/
+│   │   └── README.md
 │   └── assets/
 └── .gitignore
 ```

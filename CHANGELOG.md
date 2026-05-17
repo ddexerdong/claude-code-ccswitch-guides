@@ -12,3 +12,5 @@
 - Added macOS English maintenance guide
 - Added repository README
 - Updated README document index and repository overview
+- Simplified root README into Windows and macOS entry points
+- Added Windows and macOS index pages
