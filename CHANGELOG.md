@@ -14,3 +14,5 @@
 - Updated README document index and repository overview
 - Simplified root README into Windows and macOS entry points
 - Added Windows and macOS index pages
+- Restored root README as Chinese-first entry page
+- Added standalone English README entry
