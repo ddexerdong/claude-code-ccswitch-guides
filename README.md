@@ -2,25 +2,21 @@
 
 这是一个用于配置和维护 Claude Code、CC Switch，以及 DeepSeek / Qwen / GLM / Kimi / SiliconFlow / OpenRouter 等模型接口的跨平台教程仓库。
 
-本仓库默认面向中文用户。英文文档请进入：[English Documentation](README_EN.md)。
+本仓库默认面向中文用户。英文文档请进入：[English Documentation](README.en.md)。
 
-## 选择你的系统
+## 文档入口
 
-| 系统 | 文档入口 | 适合内容 |
+| 语言 | 文档入口 | 内容 |
 | --- | --- | --- |
-| Windows | [Windows 中文文档](docs/windows/README.md#中文) | Windows 安装配置、维护、自检、故障排查 |
-| macOS | [macOS 中文文档](docs/mac/README.md#中文) | macOS 安装配置、维护、自检、故障排查 |
+| 中文 | [中文文档](docs/zh/README.md) | Windows / macOS 安装配置与维护指南 |
+| English | [English Documentation](README.en.md) | Windows / macOS setup and maintenance guides |
 
-进入系统文档后，再选择：
+## 中文快速导航
 
-- 安装配置指南：适合第一次搭建环境
-- 维护指南：适合后续自查、更新、排错、备份恢复
-
-## 英文文档入口
-
-English guides are available here:
-
-[English Documentation](README_EN.md)
+| 系统 | 安装配置 | 维护指南 |
+| --- | --- | --- |
+| Windows | [Windows 安装配置](docs/zh/windows/setup.md) | [Windows 维护指南](docs/zh/windows/maintenance.md) |
+| macOS | [macOS 安装配置](docs/zh/macos/setup.md) | [macOS 维护指南](docs/zh/macos/maintenance.md) |
 
 ## 仓库内容
 
@@ -44,10 +40,10 @@ English guides are available here:
 
 ## 快速使用
 
-1. 先选择系统：[Windows](docs/windows/README.md#中文) 或 [macOS](docs/mac/README.md#中文)。
-2. 第一次配置环境时，阅读“安装配置指南”。
-3. 日常排查问题时，阅读“维护指南”。
-4. 遇到问题时，先运行文档里的自检命令。
+1. 进入 [中文文档](docs/zh/README.md)。
+2. 选择 Windows 或 macOS。
+3. 第一次配置环境时，阅读“安装配置”。
+4. 日常排查问题时，阅读“维护指南”。
 5. 发给技术支持前，请打码 API Key、Token、Bearer Token 和敏感请求头。
 
 ## 安全提醒
@@ -78,15 +74,18 @@ English guides are available here:
 ```text
 .
 ├── README.md
-├── README_EN.md
+├── README.en.md
 ├── LICENSE
 ├── CHANGELOG.md
 ├── docs/
-│   ├── windows/
-│   │   └── README.md
-│   ├── mac/
-│   │   └── README.md
-│   └── assets/
+│   ├── zh/
+│   │   ├── windows/
+│   │   └── macos/
+│   ├── en/
+│   │   ├── windows/
+│   │   └── macos/
+│   ├── assets/
+│   └── archive/
 └── .gitignore
 ```
 

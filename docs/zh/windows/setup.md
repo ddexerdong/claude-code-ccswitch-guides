@@ -1031,7 +1031,7 @@ echo $ANTHROPIC_BASE_URL
 
 | 检查项 | 是否完成 |
 | --- | --- |
-| 文件是否存在 | 是，目标文件为 `docs/windows/windows_claude_code_ccswitch_full_guide_zh.md` |
+| 文件是否存在 | 是，目标文件为 `docs/zh/windows/setup.md` |
 | 一级标题是否正确 | 是 |
 | 是否包含网站清单 | 是 |
 | 是否包含命令清单 | 是 |

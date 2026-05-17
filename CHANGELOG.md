@@ -16,3 +16,5 @@
 - Added Windows and macOS index pages
 - Restored root README as Chinese-first entry page
 - Added standalone English README entry
+- Reorganized documentation into language-first `docs/zh` and `docs/en` structure
+- Archived legacy mixed-language platform index pages

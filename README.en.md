@@ -4,17 +4,19 @@ Cross-platform guides for setting up and maintaining Claude Code, CC Switch, and
 
 Chinese documentation is the default entry point: [中文首页](README.md).
 
-## Choose Your Platform
+## Documentation Entry
 
-| Platform | Documentation | Includes |
+| Language | Entry | Includes |
 | --- | --- | --- |
-| Windows | [Windows English Guides](docs/windows/README.md#english) | Setup guide and maintenance guide |
-| macOS | [macOS English Guides](docs/mac/README.md#english) | Setup guide and maintenance guide |
+| 中文 | [中文文档](docs/zh/README.md) | Windows / macOS installation and maintenance guides |
+| English | [English Docs](docs/en/README.md) | Windows / macOS setup and maintenance guides |
 
-After opening the platform page, choose:
+## English Quick Navigation
 
-- Setup Guide: for first-time installation and configuration
-- Maintenance Guide: for health checks, updates, troubleshooting, and backup
+| System | Setup Guide | Maintenance Guide |
+| --- | --- | --- |
+| Windows | [Windows Setup](docs/en/windows/setup.md) | [Windows Maintenance](docs/en/windows/maintenance.md) |
+| macOS | [macOS Setup](docs/en/macos/setup.md) | [macOS Maintenance](docs/en/macos/maintenance.md) |
 
 ## What These Guides Cover
 
@@ -36,10 +38,11 @@ After opening the platform page, choose:
 
 ## Quick Start
 
-1. Open the platform page: [Windows](docs/windows/README.md#english) or [macOS](docs/mac/README.md#english).
-2. Open the setup guide first.
-3. Use the maintenance guide for daily checks and troubleshooting.
-4. Before asking for support, redact all API keys, tokens, bearer tokens, and sensitive headers.
+1. Open [English Docs](docs/en/README.md).
+2. Choose Windows or macOS.
+3. Open the setup guide first.
+4. Use the maintenance guide for daily checks and troubleshooting.
+5. Before asking for support, redact all API keys, tokens, bearer tokens, and sensitive headers.
 
 ## Security Notes
 
