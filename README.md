@@ -1,71 +1,89 @@
 # Claude Code + CC Switch Guides
 
-## 简介
+Cross-platform setup and maintenance guides for Claude Code, CC Switch, and third-party model providers such as DeepSeek, Qwen, GLM, Kimi, SiliconFlow, and OpenRouter.
 
-This repository contains cross-platform guides for setting up and maintaining Claude Code, CC Switch, and third-party model providers such as DeepSeek, Qwen, GLM, Kimi, SiliconFlow, and OpenRouter.
+本仓库整理了 Windows 与 macOS 上配置 Claude Code、使用 CC Switch 切换模型、维护 API Key / Base URL / Model Name、以及排查常见问题的中英文文档，适合个人学习、客户交付和团队内部环境标准化。
 
-这些文档适合用于个人学习、客户交付、团队环境配置和后续维护。文档重点覆盖：
+## Documentation
 
-- Claude Code 安装和基础使用
-- CC Switch 安装、Provider 配置和模型切换
-- DeepSeek / Qwen / GLM / Kimi 等模型接口配置
-- API Key、Base URL、Model Name 的安全维护
-- Windows 和 macOS 环境自检与故障排查
-
-## 文档目录
-
-| 系统 | 语言 | 类型 | 文档 |
+| System | Language | Type | Document |
 | --- | --- | --- | --- |
 | Windows | 中文 | 安装配置 | [Windows 中文安装配置指南](docs/windows/windows_claude_code_ccswitch_full_guide_zh.md) |
 | Windows | 中文 | 维护指南 | [Windows 中文维护指南](docs/windows/windows_claude_code_ccswitch_maintenance_zh.md) |
-| macOS | 中文 | 安装配置 | [macOS 中文安装配置指南](docs/mac/mac_claude_code_ccswitch_full_guide_zh.md) |
-| macOS | 中文 | 维护指南 | [macOS 中文维护指南](docs/mac/mac_claude_code_ccswitch_maintenance_zh.md) |
 | Windows | English | Setup Guide | [Windows English Setup Guide](docs/windows/windows_claude_code_ccswitch_full_guide_en.md) |
 | Windows | English | Maintenance Guide | [Windows English Maintenance Guide](docs/windows/windows_claude_code_ccswitch_maintenance_en.md) |
+| macOS | 中文 | 安装配置 | [macOS 中文安装配置指南](docs/mac/mac_claude_code_ccswitch_full_guide_zh.md) |
+| macOS | 中文 | 维护指南 | [macOS 中文维护指南](docs/mac/mac_claude_code_ccswitch_maintenance_zh.md) |
+| macOS | English | Setup Guide | [macOS English Setup Guide](docs/mac/mac_claude_code_ccswitch_full_guide_en.md) |
+| macOS | English | Maintenance Guide | [macOS English Maintenance Guide](docs/mac/mac_claude_code_ccswitch_maintenance_en.md) |
 
-## 适合人群
+## What Is Covered
 
-- AI 编程工具使用者
-- Claude Code 用户
-- 想用 CC Switch 切换模型的用户
-- 想接入 DeepSeek / Qwen / GLM / Kimi 等模型的用户
-- 需要给客户交付配置教程的人
+- Installing and verifying Claude Code on Windows and macOS
+- Installing Git, Homebrew, Node.js, Python, and other recommended tooling
+- Installing CC Switch from trusted sources
+- Adding providers for DeepSeek, Qwen, GLM, Kimi, SiliconFlow, OpenRouter, New API, and One API
+- Maintaining API keys, Base URLs, model names, and environment variables
+- Running health checks before daily use
+- Troubleshooting common setup, login, provider, and model-switching issues
 
-## 安全提醒
+## Who This Is For
 
-> 注意：不要泄露 API Key、Token、Bearer Token、账号密码或任何私密请求头。
+- AI coding tool users
+- Claude Code users
+- Developers who want to switch models with CC Switch
+- Users integrating DeepSeek / Qwen / GLM / Kimi or other compatible providers
+- Consultants, support engineers, and teams preparing customer-facing setup docs
 
-- 不要把密钥提交到 GitHub。
-- 不要把密钥写进 README、文档、截图、工单或公开聊天记录。
-- 不要从不明来源下载 CC Switch。
-- CC Switch 只建议从官网或 GitHub Releases 下载。
-- 模型 Base URL 和 Model Name 可能变化，必须以官方文档为准。
-- 不推荐灰色中转站或不明来源低价接口。
-- 如果怀疑 API Key 泄露，请立即到对应模型平台删除旧 Key 并创建新 Key。
+## Quick Start
 
-## 使用方式
+1. Choose your operating system and language from the documentation table.
+2. Follow the setup guide first.
+3. Use the maintenance guide for daily checks and troubleshooting.
+4. If model switching fails, verify API Key, Base URL, Model Name, and whether Claude Code was restarted.
+5. Before asking for support, redact all API keys, tokens, and sensitive headers.
 
-1. 选择对应系统。
-2. 按安装指南完成配置。
-3. 用维护指南进行日常自检和排查。
-4. 遇到问题先运行文档中的自检命令。
-5. 提交技术支持信息前，请先打码 API Key 和 Token。
+## Security Notes
 
-## 相关官方入口
+> Never commit API keys, tokens, bearer tokens, account passwords, or private headers to GitHub.
+
+- Do not write real API keys in README files, documentation, screenshots, issues, or support tickets.
+- Do not download CC Switch from unknown cloud-drive links, private-message links, or repackaged installers.
+- Download CC Switch only from the official website or GitHub Releases.
+- Base URLs and model names can change; always refer to the provider's official documentation.
+- This repository does not recommend gray-market relay services or unknown low-cost proxy providers.
+- If an API key may have leaked, revoke it immediately on the provider platform and create a new one.
+
+## Official References
 
 - [Claude Code Documentation](https://code.claude.com/docs/)
 - [Claude Code Quickstart](https://code.claude.com/docs/en/quickstart)
 - [Claude Code Setup](https://code.claude.com/docs/en/setup)
 - [Claude Code Environment Variables](https://code.claude.com/docs/en/env-vars)
 - [Claude Code Settings](https://code.claude.com/docs/en/settings)
+- [Anthropic Console](https://console.anthropic.com/)
 - [CC Switch Website](https://ccswitch.io/)
 - [CC Switch GitHub](https://github.com/farion1231/cc-switch)
 - [CC Switch Releases](https://github.com/farion1231/cc-switch/releases)
 
-## 免责声明
+## Repository Structure
 
-- 本仓库仅为个人学习和技术配置参考。
-- 具体工具功能、安装方式、配置字段以官方文档为准。
-- API 平台费用、可用性、模型名称和接口地址可能变化。
-- 使用第三方模型接口需自行承担账号、安全、费用、合规和数据保护责任。
-- 本仓库不提供、不销售、不背书任何第三方中转服务。
+```text
+.
+├── README.md
+├── LICENSE
+├── CHANGELOG.md
+├── docs/
+│   ├── windows/
+│   ├── mac/
+│   └── assets/
+└── .gitignore
+```
+
+## Disclaimer
+
+- This repository is for learning, technical configuration, and documentation reference.
+- Actual tool behavior, installation methods, configuration fields, and supported features are defined by the official documentation.
+- API pricing, availability, model names, and endpoints may change without notice.
+- You are responsible for account security, data security, compliance, and cost control when using third-party model providers.
+- This repository does not provide, sell, or endorse any third-party relay service.
