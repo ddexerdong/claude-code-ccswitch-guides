@@ -18,3 +18,4 @@
 - Added standalone English README entry
 - Reorganized documentation into language-first `docs/zh` and `docs/en` structure
 - Archived legacy mixed-language platform index pages
+- Simplified Chinese Windows and macOS setup guides into quick install and verification checklists
