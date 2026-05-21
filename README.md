@@ -1,6 +1,6 @@
 # Claude Code + CC Switch 指南
 
-这是一个用于配置和维护 Claude Code、CC Switch，以及 DeepSeek / Qwen / GLM / Kimi / SiliconFlow / OpenRouter 等模型接口的跨平台教程仓库。
+这是一个用于配置 Claude Code、CC Switch，以及 DeepSeek / Qwen / GLM / Kimi / SiliconFlow / OpenRouter 等模型接口的跨平台教程仓库。
 
 本仓库默认面向中文用户。英文文档请进入：[English Documentation](README.en.md)。
 
@@ -8,15 +8,15 @@
 
 | 语言 | 文档入口 | 内容 |
 | --- | --- | --- |
-| 中文 | [中文文档](docs/zh/README.md) | Windows / macOS 安装配置与维护指南 |
-| English | [English Documentation](README.en.md) | Windows / macOS setup and maintenance guides |
+| 中文 | [中文文档](docs/zh/README.md) | Windows / macOS 安装配置指南 |
+| English | [English Documentation](README.en.md) | Windows / macOS setup guides |
 
 ## 中文快速导航
 
-| 系统 | 安装配置 | 维护指南 |
-| --- | --- | --- |
-| Windows | [Windows 安装配置](docs/zh/windows/setup.md) | [Windows 维护指南](docs/zh/windows/maintenance.md) |
-| macOS | [macOS 安装配置](docs/zh/macos/setup.md) | [macOS 维护指南](docs/zh/macos/maintenance.md) |
+| 系统 | 安装配置 |
+| --- | --- |
+| Windows | [Windows 安装配置](docs/zh/windows/setup.md) |
+| macOS | [macOS 安装配置](docs/zh/macos/setup.md) |
 
 ## 仓库内容
 
@@ -27,7 +27,7 @@
 - Git、Git Bash、Homebrew、Node.js、Python 等工具配置
 - CC Switch 安装、Provider 配置和模型切换
 - DeepSeek / Qwen / GLM / Kimi / SiliconFlow / OpenRouter 等模型接口配置
-- API Key、Base URL、Model Name、环境变量维护
+- API Key、Base URL、Model Name、环境变量配置
 - 常见错误排查、自检命令、备份恢复和技术支持反馈模板
 
 ## 适合人群
@@ -43,7 +43,7 @@
 1. 进入 [中文文档](docs/zh/README.md)。
 2. 选择 Windows 或 macOS。
 3. 第一次配置环境时，阅读“安装配置”。
-4. 日常排查问题时，阅读“维护指南”。
+4. 遇到问题时，优先按对应安装配置文档中的排查步骤处理。
 5. 发给技术支持前，请打码 API Key、Token、Bearer Token 和敏感请求头。
 
 ## 安全提醒

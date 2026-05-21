@@ -1,6 +1,6 @@
 # Claude Code + CC Switch Guides
 
-Cross-platform guides for setting up and maintaining Claude Code, CC Switch, and third-party model providers such as DeepSeek, Qwen, GLM, Kimi, SiliconFlow, and OpenRouter.
+Cross-platform guides for setting up Claude Code, CC Switch, and third-party model providers such as DeepSeek, Qwen, GLM, Kimi, SiliconFlow, and OpenRouter.
 
 Chinese documentation is the default entry point: [中文首页](README.md).
 
@@ -8,15 +8,15 @@ Chinese documentation is the default entry point: [中文首页](README.md).
 
 | Language | Entry | Includes |
 | --- | --- | --- |
-| 中文 | [中文文档](docs/zh/README.md) | Windows / macOS installation and maintenance guides |
-| English | [English Docs](docs/en/README.md) | Windows / macOS setup and maintenance guides |
+| 中文 | [中文文档](docs/zh/README.md) | Windows / macOS installation guides |
+| English | [English Docs](docs/en/README.md) | Windows / macOS setup guides |
 
 ## English Quick Navigation
 
-| System | Setup Guide | Maintenance Guide |
-| --- | --- | --- |
-| Windows | [Windows Setup](docs/en/windows/setup.md) | [Windows Maintenance](docs/en/windows/maintenance.md) |
-| macOS | [macOS Setup](docs/en/macos/setup.md) | [macOS Maintenance](docs/en/macos/maintenance.md) |
+| System | Setup Guide |
+| --- | --- |
+| Windows | [Windows Setup](docs/en/windows/setup.md) |
+| macOS | [macOS Setup](docs/en/macos/setup.md) |
 
 ## What These Guides Cover
 
@@ -41,7 +41,7 @@ Chinese documentation is the default entry point: [中文首页](README.md).
 1. Open [English Docs](docs/en/README.md).
 2. Choose Windows or macOS.
 3. Open the setup guide first.
-4. Use the maintenance guide for daily checks and troubleshooting.
+4. For issues, follow troubleshooting steps in the corresponding setup guide.
 5. Before asking for support, redact all API keys, tokens, bearer tokens, and sensitive headers.
 
 ## Security Notes
